@@ -11,8 +11,8 @@ exports.config = {
   },
 
   api: {
-    host: "api.github.com",
-    protocol: "https"
+    host: "outluch.dyndns.org:3000/api", // my own rest mini-service for test! It is on laptop.
+    protocol: "http"
   },
 
   rendrApp: {

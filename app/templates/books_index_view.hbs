@@ -1,0 +1,10 @@
+<h1>Books</h1>
+
+<button class="test1">Test1</button>
+<button class="test2">Test2</button>
+<ul>
+{{#each models}}
+  {{view "book_view" model=this model_name="Book"}}
+{{/each}}
+</ul>
+
